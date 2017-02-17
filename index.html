@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+	  <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+
+
+</head>
+<body>
+	<div class="container">
+		<div id="choose-player">
+			<div class="jumbotron">
+				<div class="row">
+					<div class="char-pick char-box" id="kylo-ren">
+						<div class="well container" >
+							<h4 class="text-center">Kylo Ren</h4>
+							<img src="assets/images/kylo-ren.jpeg" alt="Kylo Ren" class="charcter-pic img-responsive" >
+							<h4 class="text-center">100</h4>
+						</div>
+					</div>
+					<div class="char-pick" id="luke-skywalker">
+						<div class="well " >
+							<h4 class="text-center">Luke Skywalker</h4>
+							<img src="assets/images/luke-skywalker.jpg" alt="Luke Skywalker" class="charcter-pic img-responsive" >
+							<h4 class="text-center">120</h4>
+						</div>
+					</div>
+					<div class="char-pick" id="mace-windu">
+						<div class="well" >
+							<h4 class="text-center ">Mace Windu</h4>
+							<img src="assets/images/mace-windu.jpg" alt="Mace Windu" class="charcter-pic img-responsive">
+							<h4 class="text-center">140</h4>
+						</div>
+					</div>
+					<div class="char-pick" id="darth-vader">
+						<div class="well" >
+							<h4 class="text-center">Darth Vader</h4>
+							<img src="assets/images/darth-vader.jpg" alt="Darth Vader" class="charcter-pic img-responsive">
+							<h4 class="text-center">160</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="jumbotron col-sm-3" id="player-box">
+				<div class="row" id="player-chacter-spot">
+					<h3 class="text-center">Your Character</h3>
+				</div>
+			</div>
+
+			<div class="jumbotron col-sm-6">
+				<div class="row" id="enemy-spot">
+					<h3 class="text-center">Eneimies Available to Attack</h3>
+				</div>
+			</div>
+		</div>
+		<div class="jumbotron">
+			<div class="row">
+				<h3 class="text-center">Fight Section</h3>
+			</div>
+			<div class="row text-center">
+				<button type="button" class="btn btn-danger">Attack</button>
+			</div>
+
+			<div class="row">
+				<h3 class="text-center">Defender</h3>
+			</div>
+
+		</div>
+
+
+
+	</div>
+	
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js">    </script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>

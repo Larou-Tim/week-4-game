@@ -1,0 +1,24 @@
+.charcter-pic {
+	width: 140px;
+	height: 75px;
+	margin: 0px auto;
+}
+h4{
+	padding:0;
+}
+.char-box {
+	/*border: solid;*/
+}
+
+.well {
+	width: 200px;
+	height: 155px;
+	padding: 0 0 0 0;
+	margin-right: 10px;
+	float: left;
+	/*margin-left: auto;*/
+}
+
+#player-box {
+	margin-right: 25px;
+}
